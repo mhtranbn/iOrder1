@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="$$" rowHeight="52" id="KGk-i7-Jjw" customClass="QuantityNamePriceCell" customModule="iOrder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="511" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="511" height="51"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0s3-AN-DPC">
+                        <rect key="frame" x="13" y="17" width="325" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVP-Hy-GFB">
+                        <rect key="frame" x="413" y="17" width="90" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="9Tg-5u-eI8"/>
+                            <constraint firstAttribute="width" constant="90" id="AfS-Va-pzZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="9Tg-5u-eI8"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xRN-q8-Xp6">
+                        <rect key="frame" x="338" y="17" width="75" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="BBS-yX-XgA"/>
+                            <constraint firstAttribute="width" constant="75" id="mJd-zB-NPH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="BBS-yX-XgA"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="0s3-AN-DPC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="5kG-Kx-YYN"/>
+                    <constraint firstItem="xRN-q8-Xp6" firstAttribute="leading" secondItem="0s3-AN-DPC" secondAttribute="trailing" id="7ZP-z3-TUo"/>
+                    <constraint firstItem="MVP-Hy-GFB" firstAttribute="leading" secondItem="xRN-q8-Xp6" secondAttribute="trailing" id="C9W-hX-WjN"/>
+                    <constraint firstItem="xRN-q8-Xp6" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Jb4-6u-Sdo"/>
+                    <constraint firstItem="0s3-AN-DPC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="5" id="PCd-d8-A9E"/>
+                    <constraint firstItem="MVP-Hy-GFB" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="drv-iB-7yN"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="MVP-Hy-GFB" secondAttribute="trailing" id="wSX-Rb-33g"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="nameLabel" destination="0s3-AN-DPC" id="AEp-Z3-p4K"/>
+                <outlet property="priceLabel" destination="MVP-Hy-GFB" id="Lmm-VN-eIi"/>
+                <outlet property="quantityLabel" destination="xRN-q8-Xp6" id="VgQ-0z-Jid"/>
+            </connections>
+            <point key="canvasLocation" x="394.5" y="318"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="98" id="KGk-i7-Jjw" customClass="DetailCell2" customModule="iOrder" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="449" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="449" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mayonnaise" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSU-sV-myc">
+                        <rect key="frame" x="22" y="38" width="122" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="122" id="AjN-bn-WfV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crZ-K0-u1H">
+                        <rect key="frame" x="361" y="33" width="63" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="63" id="osz-3s-hlY"/>
+                            <constraint firstAttribute="height" constant="32" id="qRN-RF-dQ0"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="buttonSwitch2.png"/>
+                        <connections>
+                            <action selector="switchAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="fOJ-Nv-UN3"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100000VND" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeb-BA-iTX">
+                        <rect key="frame" x="144" y="38" width="95" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ZSU-sV-myc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="22" id="3nJ-OQ-Rcb"/>
+                    <constraint firstItem="crZ-K0-u1H" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Qa8-Hm-wuQ"/>
+                    <constraint firstItem="ZSU-sV-myc" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="YGa-X8-ngX"/>
+                    <constraint firstItem="zeb-BA-iTX" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="beG-VX-wRf"/>
+                    <constraint firstItem="zeb-BA-iTX" firstAttribute="leading" secondItem="ZSU-sV-myc" secondAttribute="trailing" id="mqm-6u-UlF"/>
+                    <constraint firstAttribute="trailing" secondItem="crZ-K0-u1H" secondAttribute="trailing" constant="25" id="muZ-u2-5Pz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="name" destination="ZSU-sV-myc" id="Ici-IZ-UKm"/>
+                <outlet property="price" destination="zeb-BA-iTX" id="n5u-fr-hs4"/>
+                <outlet property="switchSelect" destination="crZ-K0-u1H" id="Qgd-hi-eCL"/>
+            </connections>
+            <point key="canvasLocation" x="380.5" y="406"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="buttonSwitch2.png" width="325" height="160"/>
+    </resources>
+</document>

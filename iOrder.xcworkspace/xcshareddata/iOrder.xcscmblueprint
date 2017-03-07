@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2D45C8C9F757842756F5EE987391422A038A5DCB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2D45C8C9F757842756F5EE987391422A038A5DCB" : 0,
+    "C82FF0FA41060B264D2173FED0B0AA12D8383553" : 0,
+    "E5C80E18F339E10D3E4A0539F84A3D7375FB999E" : 0,
+    "B59148CDD33C6D9BA7CC606755BDF6AC88686EEC" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0B536AB9-C6F1-4D5C-9F91-BFDFC06EDA17",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2D45C8C9F757842756F5EE987391422A038A5DCB" : "iOrder2016Ver1\/",
+    "C82FF0FA41060B264D2173FED0B0AA12D8383553" : "iOrder\/",
+    "E5C80E18F339E10D3E4A0539F84A3D7375FB999E" : "SlideMenuSwiftHandle\/",
+    "B59148CDD33C6D9BA7CC606755BDF6AC88686EEC" : "BarCodeWifi\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iOrder",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOrder.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "192.168.1.52:hoangtm\/iOrder2016Ver1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D45C8C9F757842756F5EE987391422A038A5DCB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mhtranbn\/BarCodeWifi.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B59148CDD33C6D9BA7CC606755BDF6AC88686EEC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mhtranbn\/iOrder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C82FF0FA41060B264D2173FED0B0AA12D8383553"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mhtranbn\/slidemenuhandle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E5C80E18F339E10D3E4A0539F84A3D7375FB999E"
+    }
+  ]
+}
